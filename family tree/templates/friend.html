@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>My Friend info</title>
+        <title>Datos de mi amigo</title>
     </head>
     <body>
-        <h1>Relation : Friend</h1>
-        <h2>Name : {{name}}</h2>
-        <h2>Age : {{age}}</h2>
+        <h1>Relación : Amigo</h1>
+        <h2>Nombre : {{name}}</h2>
+        <h2>Edad : {{age}}</h2>
 
-        <!--Write the correct link for image source in place of #. The images are present in the 
-            static folder. If you dont like those images you can use your own as well-->
-        <img src = "{{ url_for('static' , filename = 'friend.jpg') }}" alt = "Reference your friends image present in the static folder" width = "200"/>
+        <!--Escribe el enlace correcto para la fuente de la imagen en lugar de #. Las imágenes están presentes en la 
+            carpeta static. Si no te gustan esas imágenes, también puedes usar unas tuyas -->
+        <img src = "{{ url_for('static' , filename = 'friend.jpg') }}" alt = "Haz referencia a la imagen de tu amigo presente en la carpeta static" width = "200"/>
     </body>
 </html>

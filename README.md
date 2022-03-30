@@ -1,3 +1,3 @@
-# -Project-Solution-C116
+# -Solución-Proyecto-C116
 
-The folder only has static folder, templates folder and the app.py file. You have to create a virtual environment and install the flask library within.
+La carpeta sólo tiene la carpeta static, la carpeta templates y el archivo app.py. Tienes que crear un entorno virtual e instalar la librería flask dentro.
